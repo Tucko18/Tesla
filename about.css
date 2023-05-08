@@ -1,0 +1,39 @@
+#about1{
+    height: 100vh;
+    background: black url(images/musk.jpg) no-repeat center top fixed;
+    background-size: cover;
+}
+nav{
+    justify-content: space-between;
+    padding: 20px 0px 40px;
+    background-color: rgba(0, 0, 0, 0.902);
+}
+h1{
+    font-size: 20px;
+    width: 27em;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.473);
+    border-radius: 10px;
+    padding: 20px;
+   
+}
+#about2{
+    height: 80vh;
+    padding: 100px 50px;
+    background: black  no-repeat center top scroll;
+    background-size: cover;
+}
+h2{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 20px;
+    margin-bottom: 100px;
+    width: 50em;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.488);
+    
+}
+#h22{
+    margin-left: 400px;
+}
