@@ -1,4 +1,82 @@
-main{
-    background-image: url(images/carro\ fundo.png);
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#pt1{
+    background: black url(images/carro\ fundo.png) no-repeat center center scroll;
+    background-size: cover;
+    height: 100vh;
+}
+img#logo{
+    height: 90px;
+    margin-top: -20px;
+    margin-left: 20px;
 
+}
+nav{
+    justify-content: space-between;
+    padding: 20px 0px 40px;
+    background-color: rgba(0, 0, 0, 0.56);
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 50px;
+}
+#home{
+   margin-left: 300px;
+}
+nav ul{
+    margin-top: -60px;
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+
+}
+#login{
+    border: 3px solid white;
+    margin-left: 103px;
+}
+#login:hover{
+    background-color: white;
+    border: 3px solid rgb(1, 1, 1);
+    color: black;
+}
+nav ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.737);
+   
+}
+main{
+    
+    color: white;
+    text-align: left
+}
+h1{
+    font-weight: 800;
+    margin-top: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.505);
+    margin-left: 50px;
+}
+h2{
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.505);
+    margin-left: 50px;
+}
+
+h3{
+  line-height: 1.5em;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.505);
+  font-weight: 400;
+  margin-left: 50px;
+margin-top: 20px;
 }
